@@ -9,6 +9,8 @@
 
 <h3 align="center"> Stacks utilizadas <img src="imgReadme/react.png" alt="React" height="18"> React, <img src="imgReadme/react-native.png" alt="React Native" height="18"> React Native, <img src="imgReadme/node.png" alt="Node" height="18"> Node e <img src="imgReadme/sqlite.png" alt="SQLite" height="18"> SQLite </h3>
 
+![](imgReadme/beTheHero1.gif)
+![](imgReadme/beTheHero2.gif)
 
 ## Available Scripts
 
