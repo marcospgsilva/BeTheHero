@@ -1,13 +1,13 @@
 
 <h1 align="center">
-    <img alt="" title="" src="imgs/logo.svg">
+    <img alt="" title="" src="imgReadme/logo.svg">
 </h1>
 
-<p align="center"> <img src="imgs/heroes.png" alt="heroes" height="250"> </p>
+<p align="center"> <img src="imgReadme/heroes.png" alt="heroes" height="250"> </p>
 
 <h2 align="center"> Plataforma para conectar ONGs e seus casos á pessoas que tem disponibilidade para ajudar </h2>
 
-<h3 align="center"> Stacks utilizadas <img src="imgs/react.png" alt="react" height="18"> React, <img src="imgs/react-native.png" alt="react-native" height="18"> React Native, <img src="imgs/node.png" alt="node" height="18"> Node e <img src="imgs/sqlite.png" alt="node" height="18"> SQLite </h3>
+<h3 align="center"> Stacks utilizadas <img src="imgReadme/react.png" alt="React" height="18"> React, <img src="imgReadme/react-native.png" alt="React Native" height="18"> React Native, <img src="imgReadme/node.png" alt="Node" height="18"> Node e <img src="imgReadme/sqlite.png" alt="SQLite" height="18"> SQLite </h3>
 
 
 ## Available Scripts
