@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, FlatList, StatusBar, Image, Text, TouchableOpacity } from 'react-native'
+import { View, FlatList, StatusBar, Image, Text, TouchableOpacity, Platform } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { Feather } from '@expo/vector-icons'
 
@@ -47,7 +47,7 @@ function Incidents() {
 
     return (
         <View style={styles.container}>
-            <StatusBar barStyle="dark-content" />
+            {Platform.OS == 'ios' ? <StatusBar barStyle="dark-content" /> : <StatusBar barStyle="light-content" />}
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <Text style={styles.headerText}>

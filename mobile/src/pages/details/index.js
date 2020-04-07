@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, TouchableOpacity, StatusBar, Image, Linking, Text } from 'react-native'
+import { View, TouchableOpacity, StatusBar, Image, Linking, Text, Platform } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import * as MailComposer from 'expo-mail-composer'
@@ -37,7 +37,7 @@ function Details() {
 
     return (
         <View style={styles.container}>
-            <StatusBar barStyle="dark-content" />
+            {Platform.OS == 'ios' ? <StatusBar barStyle="dark-content" /> : <StatusBar barStyle="light-content" />}
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <TouchableOpacity onPress={navigateBack}>
