@@ -5,7 +5,7 @@
 
 <p align="center"> <img src="imgReadme/heroes.png" alt="heroes" height="250"> </p>
 
-<h2 align="center"> Plataforma para conectar ONGs e seus casos á pessoas que tem disponibilidade para ajudar </h2>
+<h2 align="center"> Plataforma para conectar ONGs e seus casos á pessoas que tem disponibilidade para ajudar.Projeto da semana Omnistack da Rocketseat </h2>
 
 <h3 align="center"> Stacks utilizadas <img src="imgReadme/react.png" alt="React" height="18"> React, <img src="imgReadme/react-native.png" alt="React Native" height="18"> React Native, <img src="imgReadme/node.png" alt="Node" height="18"> Node e <img src="imgReadme/sqlite.png" alt="SQLite" height="18"> SQLite </h3>
 
